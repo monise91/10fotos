@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container-grid">
+
+            <div class="foto01"><img src="https://i.pinimg.com/564x/1e/93/e9/1e93e90925ca7620397c4cd80442e125.jpg"></div>
+            <div class="foto02"><img src="https://i.pinimg.com/236x/f6/78/e6/f678e6859a510032e35f7de70afbe55d.jpg"></div>
+            <div class="foto03"><img src="https://i.pinimg.com/236x/a7/be/1f/a7be1fb6fb3a2404a5c97fdf1f703847.jpg"></div>
+            <div class="foto04"><img src="https://i.pinimg.com/236x/c4/81/e6/c481e68724d82cb2174b34500452001a.jpg"></div>
+            <div class="foto05"><img src="https://i.pinimg.com/236x/4f/73/a0/4f73a02d5743d897f50e30d789deaf19.jpg"></div>
+            <div class="foto06"><img src="https://i.pinimg.com/236x/7e/70/ba/7e70bab21fc352f532130447c2d93dd8.jpg"></div>
+            <div class="foto07"><img src="https://i.pinimg.com/236x/35/3a/4f/353a4f6c226f7b84d0ef9d76784f4b3f.jpg"></div>
+            <div class="foto08"><img src="https://i.pinimg.com/236x/f1/4e/49/f14e4900a0e245a157bb6ce73b8a06aa.jpg"></div>
+            <div class="foto09"><img src="https://i.pinimg.com/236x/9c/43/35/9c433599c180ce7383fa1bb52899d339.jpg"></div>
+            <div class="foto10"><img src="https://i.pinimg.com/236x/63/c6/5b/63c65bb825bcc304b72b058947fadb04.jpg"></div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body{
+    background-color: 220,203,158;
+}
+.container-grid{
+    margin: 50px;     
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 25px;
+    grid-auto-flow: row column;    
+    justify-items: center; 
+}
